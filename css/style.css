@@ -1,0 +1,85 @@
+body{
+  background-color: #c9d5d6;
+}
+
+pre {
+  margin: 5px;
+  padding: 5px;
+  background-color: #cdcdcd;
+  font-size: 10px;
+}
+pre div {
+  font-size: 9px;
+  font-weight: bold;
+}
+pre .path {
+  color: #ac008e;
+  margin-right: 10px;
+}
+pre .func {
+  color: #846c0f;
+  margin-right: 10px;
+}
+pre .line {
+  color: #138031;
+}
+
+.hide {
+  display: none;
+}
+
+.page-wrapper {
+  border-radius: 10px;
+}
+
+#catalog {
+  margin: 15px 0;
+  padding: 15px;
+  border-top: 1px solid #888;
+  border-bottom: 1px solid #888;
+}
+
+.catalog-list {
+  margin: 15px 0;
+}
+
+.folder,
+.item {
+  cursor: pointer;
+}
+.folder.opened,
+.item.opened {
+  background-color: aliceblue;
+}
+.item-content {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #dddddd;
+}
+
+.form-folder {
+  position: fixed;
+  background-color: #0004;
+  z-index: 10;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.form-folder > form {
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  padding: 15px;
+  min-width: 320px;
+  width: 50%;
+  background-color: #fff;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+}
+
+
+.text-size-s {
+  font-size: 0.9em;
+}

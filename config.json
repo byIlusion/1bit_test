@@ -1,0 +1,14 @@
+{
+  "theming":{
+    "path":"templates",
+    "suffix":"tpl.php"
+  },
+  "db":{
+    "host":"127.0.0.1",
+    "db":"test_1bit",
+    "user":"mysql",
+    "pass":"poth23",
+    "engine":"",
+    "schemas_path":"db/schema.php"
+  }
+}
